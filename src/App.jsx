@@ -8,6 +8,8 @@ import Scorekeeper from "./components/Scorekeeper";
 import "./styles/App.css";
 import "./styles/Header.css";
 import "./styles/Scorekeeper.css";
+import "./styles/Card.css";
+import "./styles/CardsDisplay.css";
 
 export default function App() {
   const [pokemon, setPokemon] = useState([]);
