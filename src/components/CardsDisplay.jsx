@@ -1,11 +1,8 @@
-export default function CardsDisplay({ children }) {
+export default function CardsDisplay({ children, message }) {
   return (
     <>
       <div className="cards-display">{children}</div>
-      <p className="footer">
-        Welcome to the Pokémon Memory Game! Try not to click on the same Pokémon
-        more than once!
-      </p>
+      <p className="message">{message}</p>
     </>
   );
 }
