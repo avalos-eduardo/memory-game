@@ -6,6 +6,7 @@ export const getPokemon = async () => {
             const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
             const data = await response.json();
             return {
+                id: crypto.randomUUID(),
                 name: data.forms[0].name,
                 image: data.sprites.front_default,
             }
