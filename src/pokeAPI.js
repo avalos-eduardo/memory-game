@@ -16,7 +16,7 @@ export const getPokemon = async () => {
         return pokemon;
     } 
     catch (error) {
-        console.error("Error fetching heroes:", error);
+        console.error("Error fetching pokemon:", error);
         return [];
     }
 }
